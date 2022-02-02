@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="9300c927-5edc-4a9f-9b89-ca6c6230e27a">
+  <producedTypes>
+    <objectType typeId="e33f4ae1-fb54-4a3d-a11d-2ae8a254595b" valueTypeId="3a781871-8703-4fd3-9742-21feb49a63a2"/>
+    <refType typeId="d4f93041-2cc6-43a5-ba3e-911eae06f7d9" valueTypeId="0af12191-4f74-4878-8b15-7e60d4ba1629"/>
+    <selectionType typeId="3b088d3e-bc0b-4abc-8efd-215be89b58fe" valueTypeId="39941d98-3bde-43fb-9c5e-bef799072bc9"/>
+    <listType typeId="61f1057d-51f2-417a-8328-15813ab0bf87" valueTypeId="16a9dc71-0e8c-41c1-be62-80a104c380bc"/>
+    <managerType typeId="34013f4f-3259-4040-a149-2b00b9a1bc57" valueTypeId="a694ee55-eefa-451d-8e77-6a325477dfc2"/>
+  </producedTypes>
+  <name>Продажи</name>
+  <synonym>
+    <key>en</key>
+    <value>Продажи</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Document.Продажи.StandardAttribute.Number</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <numberType>String</numberType>
+  <numberLength>9</numberLength>
+  <numberAllowedLength>Variable</numberAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <postInPrivilegedMode>true</postInPrivilegedMode>
+  <unpostInPrivilegedMode>true</unpostInPrivilegedMode>
+  <attributes uuid="b6436fcb-e129-410f-a97e-c80d30958896">
+    <name>Комментарий</name>
+    <synonym>
+      <key>en</key>
+      <value>Комментарий</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <tabularSections uuid="06b5f142-9798-48d2-a77b-72cbb6d98400">
+    <producedTypes>
+      <objectType typeId="91af222d-9559-4233-b4b6-114ef7f9c090" valueTypeId="74228286-2bb4-481b-b0bc-7782f379f3b9"/>
+      <rowType typeId="26bb614d-230b-4cbe-a91d-a9ed2d956d02" valueTypeId="fbd19222-6b3a-4eb4-b6d2-42885db5a895"/>
+    </producedTypes>
+    <name>Состав</name>
+    <synonym>
+      <key>en</key>
+      <value>Состав</value>
+    </synonym>
+  </tabularSections>
+</mdclass:Document>
